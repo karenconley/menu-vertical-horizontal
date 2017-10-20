@@ -1,0 +1,43 @@
+body{
+font-family: sans-serif;
+}
+
+
+nav{
+	outline: 
+}
+
+
+ul{
+	list-style: none;
+	/*le quita las pelotitas*/
+	padding: 0px;
+	margin: 0px;
+	/*padding y margin en 0 corre los títulos a la izquierda*/
+	background: #2e2e2a;
+	line-height: 40px;
+	/*ancho barra gris*/
+}
+
+
+a{
+	text-decoration: none;
+	color: #fff; 
+	display: block;
+	/*a ocupa el espacio de su contenedor padre, para que 
+	se haga click en todo el recuadro del menú*/
+}
+
+
+li{
+	width: 100px;
+	display: inline-block;
+	/*display: inline-block transforma la lista vert. en horz*/
+	text-align: center;
+}
+
+
+a:hover{
+	background: #f9a91a;
+	color: #000;
+}
